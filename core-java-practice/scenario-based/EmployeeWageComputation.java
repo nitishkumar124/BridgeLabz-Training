@@ -5,32 +5,32 @@ public class EmployeeWageComputation {
 
 		System.out.println("WELCOME TO EMPLOYEE WAGE COMPUTATION PROGRAM.\n");
 
-		System.out.println("USE CASE 1.");
+		System.out.println("USE CASE 1 => ");
 		String isPresent = useCase1() == true ? "PRESENT" : "ABSENT";
 		System.out.println("Employee is " + isPresent);
 		System.out.println();
 
-		System.out.println("USE CASE 2.");
+		System.out.println("USE CASE 2 => ");
 		Double dailyWage = useCase2();
 		System.out.println("Daily Employee wage is " + dailyWage);
 		System.out.println();
 
-		System.out.println("USE CASE 3.");
+		System.out.println("USE CASE 3 =>");
 		String employeeType = useCase3() == true ? "FULL TIME" : "PART TIME";
 		System.out.println("Employee is " + employeeType);
 		System.out.println();
 
-		System.out.println("USE CASE 4.");
+		System.out.println("USE CASE 4 =>");
 		double empTypeDailyWage = employeeType.equals("FULL TIME") ? useCase4(true) : useCase4(false);
 		System.out.println("Employee is " + employeeType + " and its daily wage is " + empTypeDailyWage);
 		System.out.println();
 
-		System.out.println("USE CASE 5.");
+		System.out.println("USE CASE 5 >");
 		double monthlyWage = useCase5();
 		System.out.println("Monthly wage of the Employee is " + monthlyWage);
 		System.out.println();
 
-		System.out.println("USE CASE 6.");
+		System.out.println("USE CASE 6 =>");
 		double totalWorkingWage = employeeType.equals("FULL TIME") ? useCase6(true) : useCase6(false);
 		System.out.println(
 				"Wages till total working hours or days is reached for a month - Assume 100 hours and 20 days : " + totalWorkingWage);
