@@ -42,5 +42,17 @@ public class ReverseWordApp {
     String[] words = separateWords(trimmedText);
     displayWords(words);
 
+    // UC4: combine all reversed words
+    String result = "";
+    for (int i = 0; i < words.length; i++) {
+      words[i] = reverseWord(words[i]);
+      if (i != words.length - 1)
+        result += words[i] + " ";
+      else
+        result += words[i];
+    }
+
+    System.out.println("result: " + result);
+
   }
 }
