@@ -2,14 +2,25 @@ import java.util.Scanner;
 
 public class ReverseWordApp {
 
-  // UC1
+  // UC1: remove leading and trailing whitespaces
   static String removeExtraSpaces(String text) {
     return text.trim();
   }
 
-  // UC2
+  // UC2: separate words
   static String[] separateWords(String trimmedText) {
     return trimmedText.split(" ");
+  }
+
+  // UC3: reverse word
+  static String reverseWord(String word) {
+    String reversedWord = "";
+    int i = word.length() - 1;
+    while (i >= 0) {
+      reversedWord += word.charAt(i);
+      i--;
+    }
+    return reversedWord;
   }
 
   // method to display words
