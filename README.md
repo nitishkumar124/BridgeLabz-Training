@@ -1,169 +1,78 @@
-# BridgeLabz Training
----
+# BridgeLabz-Training
 
-##  Week 01 – Core Programming
-
-### 1 Java Programming Elements
-**Topics Covered:**
-- Java syntax and structure  
-- Variables and data types  
-- Operators  
-- Input and output statements  
-
-**Key Learnings:**
-- Writing basic Java programs  
-- Understanding program execution flow  
+**Trainee:** Nitish Kumar  
 
 ---
 
-### 2 Java Control Flows
-**Topics Covered:**
-- Conditional statements (`if`, `else`, `switch`)  
-- Looping statements (`for`, `while`, `do-while`)  
-- `break` and `continue`  
+## Tech Stack & Tools
 
-**Key Learnings:**
-- Decision-making in programs  
-- Loop-based problem solving  
-
----
-
-### 3 Java Arrays
-**Topics Covered:**
-- Single-dimensional arrays  
-- Multi-dimensional arrays  
-- Array traversal techniques  
-
-**Key Learnings:**
-- Storing and processing collections of data  
-- Solving array-based problems  
+| Category | Technology |
+|----------|-----------|
+| **Programming Language** | Java |
+| **IDE** | Eclipse |
+| **Version Control** | Git |
+| **Hosting** | GitHub |
+| **Problem Solving** | LeetCode (Java solutions) |
+| **Learning Method** | Hands-on coding, daily assignments, scenario-based problems |
 
 ---
 
-### 4 Java Methods
-**Topics Covered:**
-- Method declaration and calling  
-- Parameters and return values  
-- Static vs non-static methods  
+## Repository Layout
 
-**Key Learnings:**
-- Writing reusable and modular code  
-
----
-
-### 5 Java Strings
-**Topics Covered:**
-- String creation and immutability  
-- Common String methods  
-- String manipulation problems  
-
-**Key Learnings:**
-- Efficient text handling  
-- Solving string-based logic problems  
-
----
-
-##  Week 02 – Object-Oriented Programming
-
-### 6 Object-Oriented Programming Fundamentals
-**Topics Covered:**
-- Classes and objects  
-- Encapsulation  
-- Abstraction  
-
-**Key Learnings:**
-- Designing real-world object models  
-
----
-
-### 7 Java Constructors
-**Topics Covered:**
-- Default constructors  
-- Parameterized constructors  
-- Constructor overloading  
-
-**Key Learnings:**
-- Proper object initialization  
-
----
-
-### 8 Instance vs Class Variables
-**Topics Covered:**
-- Instance variables  
-- Static (class) variables  
-- Scope and lifetime  
-
-**Key Learnings:**
-- Memory-efficient program design  
-
----
-
-### 9 Access Modifiers
-**Topics Covered:**
-- `public`  
-- `protected`  
-- `private`  
-- Default access  
-
-**Key Learnings:**
-- Implementing encapsulation  
-- Secure class design  
-
----
-
-### 10 Keywords: `this`, `static`, `final`
-**Topics Covered:**
-- `this` keyword  
-- Static variables and methods  
-- Final variables, methods, and classes  
-
-**Key Learnings:**
-- Better control over object behavior  
-
----
-
-### 11 `instanceof` Operator
-**Topics Covered:**
-- Runtime object type checking  
-- Safe type casting  
-
-**Key Learnings:**
-- Handling polymorphism safely  
-
----
-
-## 🛠 Tools & Technologies Used
-- **Language:** Java  
-- **IDE:** Eclipse  
-- **JDK:** Java 8+  
-- **Version Control:** Git & GitHub  
-
----
-
-## 📂 Repository Structure
 ```
-BridgeLabz-Training/
+BridgeLabz-Training
 │
-├── core-java-practice/            
-│   │
-│   ├── gcr-codebase/
-│   │   ├── programming-elements/
-│   │   └── control-flow/
-│   │   └── arrays/
-|   |   └── string/
-|   |   └── methods/
-|   |
-│   ├── leet-code-codebase/
-│   │
-│   └── scenario-based/
+├── core-java-practice
+│   ├── gcr-codebase
+│   │   ├── arrays
+│   │   ├── control-flow
+│   │   ├── methods
+│   │   ├── programming-elements
+│   │   └── strings
+│   ├── leet-code-codebase
+│   └── scenario-based
 │
-├── oops-practice/              
-│   │
-│   ├── gcr-codebase/
-│   │   ├── classes-and-objects/
-│   │   ├── constructor-instance-variables-access-modifiers/
-│   │   └── this-static-instance-final-operator/
-│   │
-│   ├── scenario-based/
-│   │
-│   └── leet-code-codebase/
+├── oops-practice
+│   ├── gcr-codebase
+|   |   ├── classes-and-objects
+|   |   ├── constructor-instance-variable-access-modifiers
+│   │   ├── this-static-final-instance-operator
+│   │   ├── inheritance
+│   │   ├── encapsulation-polymorphism-interface-abstract-classes
+│   │   └── object-modeling-diagrams
+│   ├── leet-code-codebase
+│   └── scenario-based
+│
+└── reviews
+
+
+```
+
+---
+
+### Week 1: Getting Started with Java Basics
+
+- **20-Dec-2025 (Saturday):** Studied Java fundamentals and variables. Solved elementary problems.
+- **21-Dec-2025 (Sunday):** Continued with control flow. Practiced loops and conditionals.
+- **22-Dec-2025 (Monday):** Solved and submitted basic practice problems.
+- **23-Dec-2025 (Tuesday):** Solved practice problems set.
+- **24-Dec-2025 (Wednesday):** Completed and submitted array and method problems.
+- **25-Dec-2025 (Thursday):** Methods & String Manipulation problems solved.
+- **26-Dec-2025 (Friday):** Number Validators and calculators completed.
+- **27-Dec-2025 (Saturday):** Scenario-based Problems implemented.
+- **28-Dec-2025 (Sunday):** Works with Java built-in Date and time.
+- **29-Dec-2025 (Monday):** Completed Employee Wages Scenario based problem and also leetcode question.
+
+---
+
+### Week 2: Object-Oriented Programming (OOPs)
+
+- **30-Dec-2025 (Tuesday):** Started OOP concepts - Classes and Objects. Completed Snake & Ladder game (UC1-UC7) with single and two-player modes. Solved basic OOPs practice programs.
+- **31-Dec-2025 (Wednesday):** Developed a clear understanding of safe Git workflows, including proper branch management, committing practices, and repository handling techniques to avoid data loss and merge conflicts, along with gaining conceptual and practical knowledge of constructors in Java for object initialization and class design.
+- **01-Jan-2026 (Thursday):** Studied static vs non-static methods and blocks. Learned access modifiers (private, default, protected, public). Implemented abstract classes and interfaces with method overriding and hiding concepts.
+- **02-Jan-2026 (Friday):** Implemented association, aggregation, and composition relationships. Created UML diagrams. Built class, object, and sequence diagrams.
+- **03-Jan-2026 (Saturday):** Practiced inheritance hierarchies. Implemented single, multilevel, hierarchical, and hybrid inheritance patterns.
+- **05-Jan-2026 (Monday):** Solved Encapsulation, Polymorphism and Abstraction problems. (Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/74b8618ffc68c78555df58e90acfe937c48cd7a7)
+- **06-Jan-2026 (Tuesday):** Submission of Scenario Based and Leetcode problems. (Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/1f3f71d9f1202be7534cb0b64b080e9ebc09ad8c)
+
+---
