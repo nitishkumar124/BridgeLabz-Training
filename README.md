@@ -74,5 +74,7 @@ BridgeLabz-Training
 - **03-Jan-2026 (Saturday):** Practiced inheritance hierarchies. Implemented single, multilevel, hierarchical, and hybrid inheritance patterns.
 - **05-Jan-2026 (Monday):** Solved Encapsulation, Polymorphism and Abstraction problems. (Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/74b8618ffc68c78555df58e90acfe937c48cd7a7)
 - **06-Jan-2026 (Tuesday):** Submission of Scenario Based and Leetcode problems. (Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/1f3f71d9f1202be7534cb0b64b080e9ebc09ad8c)
+- **07-Jan-2026 (Wednesday):** Story Based and Scenario problems. (Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/455b262bef2d3637beb13f68d2068f1bf5c79156)
 
 ---
+
