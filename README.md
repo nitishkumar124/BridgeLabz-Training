@@ -42,6 +42,12 @@ BridgeLabz-Training
 │   │   └── object-modeling-diagrams
 │   ├── leet-code-codebase
 │   └── scenario-based
+|
+├── dsa-practice
+│   ├── gcr-codebase
+|   |   └──linked-list
+│   ├── leet-code-codebase
+│   └── scenario-based
 │
 └── reviews
 
@@ -81,5 +87,6 @@ BridgeLabz-Training
 ### Week 3: DSA
 
 - **09-Jan-2026 (Friday):** Linked List problems (Singly, Doubly and Circular) (Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/2d39063ea600434c0f17dbe5b13237af496dfe41)
+
 
 
