@@ -45,7 +45,8 @@ BridgeLabz-Training
 |
 ├── dsa-practice
 │   ├── gcr-codebase
-|   |   └──linked-list
+|   |   ├── stack-queue-hashmap
+|   |   └── linked-list
 │   ├── leet-code-codebase
 │   └── scenario-based
 │
@@ -87,6 +88,8 @@ BridgeLabz-Training
 ### Week 3: DSA
 
 - **09-Jan-2026 (Friday):** Linked List problems (Singly, Doubly and Circular) (Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/2d39063ea600434c0f17dbe5b13237af496dfe41)
+- **12-Jan-2026 (Friday):** Problems on Stack Queues HashMap (Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/d732554ca90cae8f22346d5df60e05d9b80157c4)
+
 
 
 
