@@ -46,6 +46,8 @@ BridgeLabz-Training
 ├── dsa-practice
 │   ├── gcr-codebase
 |   |   ├── stack-queue-hashmap
+|   |   ├── linear-binary-search
+|   |   ├── sorting-algorithm
 |   |   └── linked-list
 │   ├── leet-code-codebase
 │   └── scenario-based
@@ -88,7 +90,11 @@ BridgeLabz-Training
 ### Week 3: DSA
 
 - **09-Jan-2026 (Friday):** Linked List problems (Singly, Doubly and Circular) (Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/2d39063ea600434c0f17dbe5b13237af496dfe41)
-- **12-Jan-2026 (Friday):** Problems on Stack Queues HashMap (Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/d732554ca90cae8f22346d5df60e05d9b80157c4)
+- **13-Jan-2026 (Tuesday):** Problems on Stack Queues HashMap (Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/d732554ca90cae8f22346d5df60e05d9b80157c4)
+- **15-Jan-2026 (Thursday):** Sorting Algorithms (Sorting techniques including complexity, space usage and stability). (Link: https://github.com/nitishkumar124/BridgeLabz-          Training/commit/3381c3cab7f761454b5ad11bbf609f03287e8998)
+- **17-Jan-2026 (Saturday):** Linear and Binary Search: String modification using StringBuffer and StringBuilder. Binary search operations.
+(Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/a1ba9c792e186c613d9c09e02e1ba9ce3c16f7a3)
+
 
 
 
