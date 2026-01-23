@@ -56,7 +56,7 @@ BridgeLabz-Training
 ├── collections-practice
 │   ├── gcr-codebase
 |   |   ├── generics
-|   |   └── linked-list
+|   |   └── collections
 │   ├── leet-code-codebase
 │   └── scenario-based
 │
@@ -179,6 +179,9 @@ BridgeLabz-Training
 
 - **20-Jan-2026 (Tuesday):** Java Generics concepts and implementation.
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/09bd2b22acd2b449c88a01b9512535a3babbd4ff
+- **21-Jan-2026 (Wednesday):** Overview of Collections Framework. What is the Collections Framework. Hierarchy of Collections Framework. Real World usecases.
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/68d858cb5f4a606fc825d8a40c41d3c215723a49
+
 
 
 
