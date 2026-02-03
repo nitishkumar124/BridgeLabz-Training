@@ -56,9 +56,21 @@ BridgeLabz-Training
 ├── collections-practice
 │   ├── gcr-codebase
 |   |   ├── generics
-|   |   └── collections
-│   ├── leet-code-codebase
-│   └── scenario-based
+|   |   ├── collections
+|   |   ├── streams
+|   |   ├── java-exceptions
+|   |   ├── junit-regex
+|   |   ├── annotations
+|   |   └── reflection
+|   ├── scenario-based
+|   └── leet-code-codebase
+|
+├── io-programming-practice
+│   ├── gcr-codebase
+|   |   ├── csv-data-handling
+|   |   └── json-data
+|   ├── scenario-based
+|   └── leet-code-codebase
 │
 └── reviews
 
@@ -133,54 +145,101 @@ BridgeLabz-Training
 
 ### Week 1: Core Java Programming
 
-- **20-Dec-2025 (Saturday):** Studied Java fundamentals and variables. Solved elementary problems.
-- **21-Dec-2025 (Sunday):** Continued with control flow. Practiced loops and conditionals.
-- **22-Dec-2025 (Monday):** Solved and submitted basic practice problems.
-- **23-Dec-2025 (Tuesday):** Solved practice problems set.
-- **24-Dec-2025 (Wednesday):** Completed and submitted array and method problems.
-- **25-Dec-2025 (Thursday):** Methods & String Manipulation problems solved.
-- **26-Dec-2025 (Friday):** Number Validators and calculators completed.
-- **27-Dec-2025 (Saturday):** Scenario-based Problems implemented.
-- **28-Dec-2025 (Sunday):** Works with Java built-in Date and time.
-- **29-Dec-2025 (Monday):** Completed Employee Wages Scenario based problem and also leetcode question.
+- **20-Dec-2025:** Studied Java fundamentals and variables. Solved elementary problems.
+- **21-Dec-2025:** Continued with control flow. Practiced loops and conditionals.
+- **22-Dec-2025:** Solved and submitted basic practice problems.
+- **23-Dec-2025:** Solved practice problems set.
+- **24-Dec-2025:** Completed and submitted array and method problems.
+- **25-Dec-2025:** Methods & String Manipulation problems solved.
+- **26-Dec-2025:** Number Validators and calculators completed.
+- **27-Dec-2025:** Scenario-based Problems implemented.
+- **28-Dec-2025:** Works with Java built-in Date and time.
+- **29-Dec-2025:** Completed Employee Wages Scenario based problem and also leetcode question.
 
 ---
 
 ### Week 2: Object-Oriented Programming
 
-- **30-Dec-2025 (Tuesday):** Started OOP concepts - Classes and Objects. Completed Snake & Ladder game (UC1-UC7) with single and two-player modes. Solved basic OOPs practice programs.
-- **31-Dec-2025 (Wednesday):** Developed a clear understanding of safe Git workflows, including proper branch management, committing practices, and repository handling techniques to avoid data loss and merge conflicts, along with gaining conceptual and practical knowledge of constructors in Java for object initialization and class design.
-- **01-Jan-2026 (Thursday):** Studied static vs non-static methods and blocks. Learned access modifiers (private, default, protected, public). Implemented abstract classes and interfaces with method overriding and hiding concepts.
-- **02-Jan-2026 (Friday):** Implemented association, aggregation, and composition relationships. Created UML diagrams. Built class, object, and sequence diagrams.
-- **03-Jan-2026 (Saturday):** Practiced inheritance hierarchies. Implemented single, multilevel, hierarchical, and hybrid inheritance patterns.
-- **05-Jan-2026 (Monday):** Solved Encapsulation, Polymorphism and Abstraction problems.
+- **30-Dec-2025:** Started OOP concepts - Classes and Objects. Completed Snake & Ladder game (UC1-UC7) with single and two-player modes. Solved basic OOPs practice programs.
+- **31-Dec-2025:** Developed a clear understanding of safe Git workflows, including proper branch management, committing practices, and repository handling techniques to avoid data loss and merge conflicts, along with gaining conceptual and practical knowledge of constructors in Java for object initialization and class design.
+- **01-Jan-2026:** Studied static vs non-static methods and blocks. Learned access modifiers (private, default, protected, public). Implemented abstract classes and interfaces with method overriding and hiding concepts.
+- **02-Jan-2026:** Implemented association, aggregation, and composition relationships. Created UML diagrams. Built class, object, and sequence diagrams.
+- **03-Jan-2026:** Practiced inheritance hierarchies. Implemented single, multilevel, hierarchical, and hybrid inheritance patterns.
+- **05-Jan-2026:** Solved Encapsulation, Polymorphism and Abstraction problems.
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/74b8618ffc68c78555df58e90acfe937c48cd7a7
-- **06-Jan-2026 (Tuesday):** Submission of Scenario Based and Leetcode problems.
+- **06-Jan-2026:** Submission of Scenario Based and Leetcode problems.
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/1f3f71d9f1202be7534cb0b64b080e9ebc09ad8c
-- **07-Jan-2026 (Wednesday):** Story Based and Scenario problems.
+- **07-Jan-2026:** Story Based and Scenario problems.
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/455b262bef2d3637beb13f68d2068f1bf5c79156
 
 ---
 
 ### Week 3: Data Structures & Algorithms
 
-- **09-Jan-2026 (Friday):** Linked List problems (Singly, Doubly and Circular)
+- **09-Jan-2026:** Linked List problems (Singly, Doubly and Circular)
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/2d39063ea600434c0f17dbe5b13237af496dfe41
-- **13-Jan-2026 (Tuesday):** Problems on Stack Queues HashMap
+- **13-Jan-2026:** Problems on Stack Queues HashMap
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/d732554ca90cae8f22346d5df60e05d9b80157c4
-- **15-Jan-2026 (Thursday):** Sorting Algorithms (Sorting techniques including complexity, space usage and stability).
+- **15-Jan-2026:** Sorting Algorithms (Sorting techniques including complexity, space usage and stability).
   - Link: https://github.com/nitishkumar124/BridgeLabz-          Training/commit/3381c3cab7f761454b5ad11bbf609f03287e8998
-- **17-Jan-2026 (Saturday):** Linear and Binary Search: String modification using StringBuffer and StringBuilder. Binary search operations.
+- **17-Jan-2026:** Linear and Binary Search: String modification using StringBuffer and StringBuilder. Binary search operations.
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/a1ba9c792e186c613d9c09e02e1ba9ce3c16f7a3
  
 ---
 
 ### Week 4: Java Collections, Streams
 
-- **20-Jan-2026 (Tuesday):** Java Generics concepts and implementation.
+- **20-Jan-2026:** Java Generics concepts and implementation.
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/09bd2b22acd2b449c88a01b9512535a3babbd4ff
-- **21-Jan-2026 (Wednesday):** Overview of Collections Framework. What is the Collections Framework. Hierarchy of Collections Framework. Real World usecases.
+- **21-Jan-2026:** Overview of Collections Framework. What is the Collections Framework. Hierarchy of Collections Framework. Real World usecases.
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/68d858cb5f4a606fc825d8a40c41d3c215723a49
+- **26-Jan-2026:** Understand how Java I/O Streams are used to read and write data.
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/streams
+- **27-Jan-2026:** Handle errors in Java– Use try-catch, finally, throw, throws, and try-with-resources to avoid program crashes.
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/java-exceptions
+- **28-Jan-2026: Scenario Based Problems**
+  - Edu-Results
+  - File Backup Scheduler
+  - Parcel Tracker
+  - Restaurant Table Reservation
+  - Smart Checkout
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based
+- **29-Jan-2026 | 30-Jan-2026: Scenario-Based Problems**
+  - Lexical Twist
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/2a7d3cafc3fd5debc889bdcfb1945e9f0bdb443c
+  - Flip Key Logical Problem
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/aee8a8cf012403874cd638cd53fe4016f73a6bfc
+  - Future Logistics
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/562c8331cec9c9fd89b4a274a20222163c615814
+- **31-Jan-2026: Regex and JUnit**
+  - Learn what regular expressions are, how metacharacters and quantifiers work, and how to build common patterns like email, password, and phone validation.
+  - Understand how Pattern and Matcher classes work together to apply regex in real Java programs.
+  - Use methods like find(), matches(), and replaceAll() to search, validate, and modify text efficiently.
+  - Learn what the JUnit framework is and why it is used for testing Java applications.
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/1a25a9d4f62bfb0376390bb07aaec376c62930f4
+- **02-Feb-2026: Annotation and Reflection**
+  - Understand what annotations and reflection are, why they are used in Java, and how they help add metadata and inspect classes at runtime.
+  - Able to use common built-in annotations (like @Override, @Deprecated) and create custom annotations, including advanced ones with targets and retention policies.
+  - How to use Java Reflection to read annotation data, access fields/methods dynamically, and link annotations with runtime behavior.
+  - Annotations
+    - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/c02b2e4304f6e63af6b675ccb2edb8f2fa422853
+  - Reflection
+    - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/617ce88e920c4ee4a6c4350c923c52b977c1a7a2
+
+---
+
+### Week 5: IO Programming
+
+- **02-Feb-2026: CSV-Data Handling**
+  - Understand CSV basics: Learners will understand what a CSV file is, its structure (rows, columns, commas), and where it is commonly used to store and share data.
+  - Work with CSV files: Learners will be able to read, write, and parse CSV files, and convert CSV data into usable program objects (like lists, arrays, or records).
+  - Ensure correct data: Learners will learn how to validate CSV data by checking missing values, correct formats (email, numbers, dates), and handling invalid or corrupted data safely.
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/934fb0fd15875f7243f6c038d7dac1daa3fd86ca
+- **03-Feb-2026: JSon-Data**
+  - Basic understanding of JSON – Meaning of JSON, structure using objects and arrays, and its use in data exchange.
+  - Handling JSON data – Reading, writing, and parsing JSON data in applications.
+  - Data validation – Checking JSON data against JSON Schema to ensure correct format and structure.
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/a082e462024783c9969f8168a453cb789cae9ecb
 
 
 
