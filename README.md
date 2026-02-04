@@ -71,6 +71,13 @@ BridgeLabz-Training
 |   |   └── json-data
 |   ├── scenario-based
 |   └── leet-code-codebase
+|
+├── java-8-features-practice
+│   ├── gcr-codebase
+|   |   ├── lambda-expressions
+|   |   └── functional-interfaces
+|   ├── scenario-based
+|   └── leet-code-codebase
 │
 └── reviews
 
@@ -240,6 +247,23 @@ BridgeLabz-Training
   - Handling JSON data – Reading, writing, and parsing JSON data in applications.
   - Data validation – Checking JSON data against JSON Schema to ensure correct format and structure.
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/a082e462024783c9969f8168a453cb789cae9ecb
+ 
+---
+
+### Week 6: Java 8 & It's Features
+
+- **04-Feb-2026: Lambda Expressions | Functional Interfaces**
+  - Lambda Expressions 
+    - Write short and clear code instead of long anonymous classes
+    - Use functions easily with Stream API and functional interfaces
+    - Call existing methods in a cleaner and readable way
+    - Reduce code by reusing methods instead of writing lambdas
+    - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/ab37e5e193935fc64dd1568156cff2fcf948684d
+  - Functional Interfaces
+    - Understand how to design interfaces properly and implement them using best practices.
+    - Use functional, default, static, and marker interfaces to add flexibility and behavior in Java programs.
+    - Write cleaner, reusable, and more maintainable code using modern interface features.
+    - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/fac0497d519cc2edc3e87d92c6b35fb3f5142bfc
 
 
 
