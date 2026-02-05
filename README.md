@@ -75,6 +75,7 @@ BridgeLabz-Training
 ├── java-8-features-practice
 │   ├── gcr-codebase
 |   |   ├── lambda-expressions
+|   |   ├── stream-api
 |   |   └── functional-interfaces
 |   ├── scenario-based
 |   └── leet-code-codebase
@@ -264,6 +265,12 @@ BridgeLabz-Training
     - Use functional, default, static, and marker interfaces to add flexibility and behavior in Java programs.
     - Write cleaner, reusable, and more maintainable code using modern interface features.
     - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/fac0497d519cc2edc3e87d92c6b35fb3f5142bfc
+- **05-Feb-2026: Stream API**
+  - Shift from writing complex "how-to" loops (imperative) to "what-to-do" pipelines (functional) for cleaner, more readable code.
+  - Efficient Data Transformation: Use of filter, map, and reduce to process and transform collections with minimal boilerplate.
+  - Lazy Evaluation Optimization: Understand how intermediate operations delay execution until necessary, improving performance through short-circuiting.
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/d9a4e4f938a7bf836ba1999b8d30051c182cba9e
+
 
 
 
