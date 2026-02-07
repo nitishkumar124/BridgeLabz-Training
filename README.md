@@ -76,6 +76,7 @@ BridgeLabz-Training
 │   ├── gcr-codebase
 |   |   ├── lambda-expressions
 |   |   ├── stream-api
+|   |   ├── collectors
 |   |   └── functional-interfaces
 |   ├── scenario-based
 |   └── leet-code-codebase
@@ -270,6 +271,12 @@ BridgeLabz-Training
   - Efficient Data Transformation: Use of filter, map, and reduce to process and transform collections with minimal boilerplate.
   - Lazy Evaluation Optimization: Understand how intermediate operations delay execution until necessary, improving performance through short-circuiting.
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/d9a4e4f938a7bf836ba1999b8d30051c182cba9e
+- **07-Feb-2026: Collectors**
+  - Understand how to transform stream data into different forms like List, Set, or Map using collectors.
+  - Apply aggregation operations such as grouping, partitioning, counting, averaging, and summarizing data efficiently.
+  - Improve data processing skills by combining intermediate and terminal operations for clean and structured results.
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/193e1a0d863fe23ece02d3fd54be5e4c774c968c
+
 
 
 
