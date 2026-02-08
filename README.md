@@ -80,6 +80,18 @@ BridgeLabz-Training
 |   |   └── functional-interfaces
 |   ├── scenario-based
 |   └── leet-code-codebase
+|
+├── solution-designing-practice
+│   ├── gcr-codebase
+|   |   └── library-management-system
+|   ├── scenario-based
+|   └── leet-code-codebase
+|
+├── multi-threading-practice
+│   ├── gcr-codebase
+|   |   └── multi-threading
+|   ├── scenario-based
+|   └── leet-code-codebase
 │
 └── reviews
 
@@ -276,6 +288,30 @@ BridgeLabz-Training
   - Apply aggregation operations such as grouping, partitioning, counting, averaging, and summarizing data efficiently.
   - Improve data processing skills by combining intermediate and terminal operations for clean and structured results.
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/193e1a0d863fe23ece02d3fd54be5e4c774c968c
+ 
+---
+
+### Week 7: Solution Designing
+
+- **08-Feb-2026: Design Patterns**
+  - Understand how multiple design patterns can coexist in a single application.
+  - Learn to choose appropriate patterns for real-world problems.
+  - Gain hands-on practice with UML + Code + Problem Solving.
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/0510119305bc6ceabe4da4924b94ac4352cffb8a
+ 
+---
+
+### Week 8: Multi Threading
+
+- **08-Feb-2026: Java multi-threading**
+  - Introduction to Multi-Threading
+  - Creating Threads Using Thread Class
+  - Creating Threads Using Runnable Interface
+  - Thread Class vs Runnable Interface
+  - Thread Life Cycle and States
+  - Thread Methods and Operations
+  - Practice Problems
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/b7e65b2ac24a605496df6db1c1020984603a35ce
 
 
 
