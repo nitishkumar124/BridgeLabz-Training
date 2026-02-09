@@ -92,6 +92,12 @@ BridgeLabz-Training
 |   |   └── multi-threading
 |   ├── scenario-based
 |   └── leet-code-codebase
+|
+├── jdbc-dbms-practice
+│   ├── gcr-codebase
+|   |   └── health-clinic-app
+|   ├── scenario-based
+|   └── leet-code-codebase
 │
 └── reviews
 
@@ -312,6 +318,18 @@ BridgeLabz-Training
   - Thread Methods and Operations
   - Practice Problems
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/b7e65b2ac24a605496df6db1c1020984603a35ce
+ 
+---
+
+### Week 9: JDBC & DBMS
+
+- **09-Feb-2026: Health Clinic App | MySQL**
+  - Primary/Foreign Keys, Auto-increment
+  - INNER/LEFT JOINs for multi-table queries
+  - Transactions (COMMIT/ROLLBACK)
+  - PreparedStatements for SQL injection prevention
+  - Connection pooling for performance
+  - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/92efb63a2939588ee7b0fdce5ed6de97f263f892
 
 
 
