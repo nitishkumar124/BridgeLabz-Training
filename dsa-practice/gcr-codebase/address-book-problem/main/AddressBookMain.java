@@ -6,6 +6,11 @@ import model.Person;
 import repository.AddressBookRepository;
 import service.AddressBookService;
 import service.AddressBookServiceImp;
+import datasource.AddressBookDataSource;
+import datasource.CsvDataSource;
+import datasource.FileDataSource;
+import datasource.JsonFileDataSource;
+import model.AddressBook;
 
 public class AddressBookMain {
 
@@ -37,6 +42,12 @@ public class AddressBookMain {
 			System.out.println("10. Sort by City");
 			System.out.println("11. Sort by State");
 			System.out.println("12. Sort by Zip");
+			System.out.println("13. Save Address Book to File (TXT)");
+			System.out.println("14. Load Address Book from File (TXT)");
+			System.out.println("15. Save Address Book to CSV");
+			System.out.println("16. Load Address Book from CSV");
+			System.out.println("17. Save Address Book to JSON");
+			System.out.println("18. Load Address Book from JSON");
 
 			System.out.print("Choose option: ");
 			int choice = sc.nextInt();
@@ -123,6 +134,100 @@ public class AddressBookMain {
 
 			case 12:
 				service.sortByZip(bookName).forEach(p -> System.out.println(p.getFname() + " - " + p.getZip()));
+				break;
+
+			case 13: // UC-13 Save to File
+				try {
+					AddressBookDataSource fileDS = new FileDataSource("addressbook.txt");
+					AddressBook book = repository.getAddressBook(bookName);
+					fileDS.write(book);
+					System.out.println("Address Book saved to TXT file successfully.");
+				} catch (Exception e) {
+					System.out.println("Error saving to file: " + e.getMessage());
+				}
+				break;
+
+			case 14: // UC-13 Read from File
+				try {
+					AddressBookDataSource fileDS = new FileDataSource("addressbook.txt");
+					AddressBook loadedBook = fileDS.read(bookName);
+
+					// Replace in repository
+					repository.getAllAddressBooks().put(bookName, loadedBook);
+
+					System.out.println("Address Book loaded from TXT file successfully.");
+
+					// 🔹 Print all contacts
+					if (loadedBook.getPersons().isEmpty()) {
+						System.out.println("Address Book is empty.");
+					} else {
+						System.out.println("----- Contacts in Address Book -----");
+						loadedBook.getPersons().forEach(p -> {
+							System.out.println("Name   : " + p.getFname() + " " + p.getLname() + "\n" + "Address: "
+									+ p.getAddress() + "\n" + "City   : " + p.getCity() + "\n" + "State  : "
+									+ p.getState() + "\n" + "Zip    : " + p.getZip() + "\n" + "Phone  : " + p.getPhone()
+									+ "\n" + "Email  : " + p.getEmail() + "\n" + "-----------------------------------");
+						});
+					}
+				} catch (Exception e) {
+					System.out.println("Error reading from file: " + e.getMessage());
+				}
+				break;
+
+			case 15: // UC-14 Save to CSV
+				try {
+					AddressBookDataSource csvDS = new CsvDataSource("addressbook.csv");
+					AddressBook book = repository.getAddressBook(bookName);
+					csvDS.write(book);
+					System.out.println("Address Book saved to CSV successfully.");
+				} catch (Exception e) {
+					System.out.println("Error saving to CSV: " + e.getMessage());
+				}
+				break;
+
+			case 16: // UC-14 Read from CSV
+				try {
+					AddressBookDataSource csvDS = new CsvDataSource("addressbook.csv");
+					AddressBook loadedBook = csvDS.read(bookName);
+					repository.getAllAddressBooks().put(bookName, loadedBook);
+					System.out.println("Address Book loaded from CSV successfully.");
+					if (loadedBook.getPersons().isEmpty()) {
+						System.out.println("No contacts found in CSV file.");
+					} else {
+						System.out.println("----- Contacts in Address Book (CSV) -----");
+						loadedBook.getPersons().forEach(p -> {
+							System.out.println("Name   : " + p.getFname() + " " + p.getLname() + "\n" + "Address: "
+									+ p.getAddress() + "\n" + "City   : " + p.getCity() + "\n" + "State  : "
+									+ p.getState() + "\n" + "Zip    : " + p.getZip() + "\n" + "Phone  : " + p.getPhone()
+									+ "\n" + "Email  : " + p.getEmail() + "\n"
+									+ "-----------------------------------------");
+						});
+					}
+				} catch (Exception e) {
+					System.out.println("Error reading CSV: " + e.getMessage());
+				}
+				break;
+
+			case 17: // UC-15 Save to JSON
+				try {
+					AddressBookDataSource jsonDS = new JsonFileDataSource("addressbook.json");
+					AddressBook book = repository.getAddressBook(bookName);
+					jsonDS.write(book);
+					System.out.println("Address Book saved to JSON successfully.");
+				} catch (Exception e) {
+					System.out.println("Error saving JSON: " + e.getMessage());
+				}
+				break;
+
+			case 18: // UC-15 Read from JSON
+				try {
+					AddressBookDataSource jsonDS = new JsonFileDataSource("addressbook.json");
+					AddressBook loadedBook = jsonDS.read(bookName);
+					repository.getAllAddressBooks().put(bookName, loadedBook);
+					System.out.println("Address Book loaded from JSON successfully.");
+				} catch (Exception e) {
+					System.out.println("Error reading JSON: " + e.getMessage());
+				}
 				break;
 
 			default:
