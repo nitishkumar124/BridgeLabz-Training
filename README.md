@@ -105,7 +105,7 @@ BridgeLabz-Training
 ```
 ---
 
-## Scenario Based Problems
+# Scenario Based Problems
 
 ### Week 1: Core Java fundamentals, control flow, methods, arrays, strings and utility programs
 - BMICalculator - Calculate Body Mass Index
@@ -168,7 +168,53 @@ BridgeLabz-Training
 
 ---
 
-## Learning Progress Summary
+### Week 4: Collections in Java
+
+- File Backup Schedular
+- Ocean Fleet
+- Restaurant Table Reservation
+- Stream Buzz
+- Exam Results
+- Parcel Tracker
+- Smart Checkout
+- Link: https://github.com/nitishkumar124/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based
+
+---
+
+### Week 6: Java 8 Features
+
+- Employee Leave Management System
+- Food Delivery Routing System
+- Music Playlist Manager
+- Online Classroom Attendance Tracker
+- Online Course Enrollment Manager
+- Link: https://github.com/nitishkumar124/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/scenario-based
+
+---
+
+### Week 7: Multithreading in Java
+
+- Online Auction Bididng System
+- Smart Energy Consumption Manager
+- Link: https://github.com/nitishkumar124/BridgeLabz-Training/tree/multi-threading-practice/multi-threading-practice/scenario-based
+
+---
+
+### Week 9: JDBC & DBMS
+
+- Courier Staff Shift Scheduler
+- Disaster Relief Resource Allocation System
+- EV Charging Station Management System
+- Event Feedback Rating Analyzer
+- Job Portal Resume Shortlisting System
+- Online Hackathon Submission Evaluator
+- Smart Parking Slot Allocation System
+- Smart Water Tank Monitoring System
+- Link: https://github.com/nitishkumar124/BridgeLabz-Training/tree/jdbc-dbms-practice/jdbc-dbms-practice/scenario-based
+
+---
+
+# Learning Progress Summary
 
 ### Week 1: Core Java Programming
 
@@ -330,6 +376,14 @@ BridgeLabz-Training
   - PreparedStatements for SQL injection prevention
   - Connection pooling for performance
   - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/92efb63a2939588ee7b0fdce5ed6de97f263f892
+    
+- **15-Feb-2026: Address-Book/Employee-Wage-Computation**
+  - Added use cases 13-18 to the address-book problem.
+  - Added use cases 7-14 and methods to the employee-wage problem.
+  - Address-Book
+    - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/1206d5a4ec791c5cffda1327ed0af8d5758c8408
+  - Employee-Wage-Computation
+    - Link: https://github.com/nitishkumar124/BridgeLabz-Training/commit/1990ec8e6125e3c0a57703ce4158e9fd820f6f79 
 
 
 
