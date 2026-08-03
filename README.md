@@ -19,6 +19,7 @@ This branch is dedicated to documenting my day-wise learning progress, practice 
 | Day | Date | Topics Covered | Programs / Assignments | Status |
 | :-- | :--- | :------------- | :--------------------- | :----: |
 | Day 1 | 31-Jul-2026 | DBMS Fundamentals & RDBMS Basics | Database creation, Table creation, SQL practice, SQL assignments | ✅ Completed |
+| Day 2 | 03-Aug-2026 | ER Diagram, Indexing & Normalization | Finalized ER Diagram & normalized patient/doctor/appointment schema | ✅ Completed |
 
 ---
 
@@ -67,6 +68,27 @@ This branch is dedicated to documenting my day-wise learning progress, practice 
   - `UPDATE`
   - `DELETE`
   - `ALTER TABLE`
+ 
+## Day 2 – ER Diagram, Indexing & Normalization
+
+**Date:** 03-Aug-2026
+
+### Topics Covered
+
+- ER Diagram design principles (Entities, Relationships, Cardinality)
+- Table Indexing (Purpose and Performance Impact)
+- Normalization Forms (1NF, 2NF, 3NF, BCNF)
+
+### Programs / Assignments Completed
+
+- Finalized the ER Diagram for the Health Clinic Application.
+- Normalized the patient, doctor, and appointment schema up to 3NF/BCNF.
+- Implemented relationships and integrity constraints:
+  - Multi-valued attributes handling (`patient_phones`)
+  - Many-to-Many mapping (`doctor_specializations`)
+  - One-to-One relationships (`billing`, `visit_history`)
+- Created indexes on essential search columns and composite indexes (`idx_doctor_date`).
+- Verified schema integrity using relational JOIN queries.
 
 ---
 
@@ -75,6 +97,7 @@ This branch is dedicated to documenting my day-wise learning progress, practice 
 | Date | Progress Update |
 |------|-----------------|
 | 31-Jul-2026 | Completed DBMS Fundamentals and RDBMS Basics. Created databases and tables, inserted sample data, practiced ALTER, UPDATE, and DELETE operations, and completed the Day 1 SQL assignment. |
+| 03-Aug-2026 | Covered ER Diagram design, Table Indexing, and Normalization forms (1NF to BCNF). Designed, normalized, and indexed the Health Clinic DB schema with integrity constraints and validation queries. |
 
 ---
 
@@ -85,15 +108,18 @@ Refresher-Training/
 │
 ├── README.md
 │
-└── Day-1/
-    ├── HealthClinicDatabaseSetup
-    └── assignment
+├── Day-1/
+|   ├── HealthClinicDatabaseSetup
+|   └── assignment
+|
+├── Day-2/
+    ├── FullyNormalizedHealthClinicSchema
 ```
 
 ---
 
 ## 🚀 Current Progress
 
-- **Training Day:** Day 1
+- **Training Day:** Day 2
 - **Status:** ✅ Completed
 
