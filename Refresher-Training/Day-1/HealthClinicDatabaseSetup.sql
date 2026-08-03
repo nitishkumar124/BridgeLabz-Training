@@ -1,63 +1,37 @@
-CREATE TABLE specializations (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    description VARCHAR(255)
+CREATE DATABASE IF NOT EXISTS health_clinic_db;
+USE health_clinic_db;
+
+CREATE TABLE patients (
+patient_id INT AUTO_INCREMENT PRIMARY KEY,
+first_name VARCHAR(50) NOT NULL,
+last_name VARCHAR(50) NOT NULL,
+date_of_birth DATE,
+gender ENUM('Male', 'Female', 'Other'),
+phone_number VARCHAR(15) UNIQUE,
+email VARCHAR(100),
+registered_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE appointments (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    patient_id INT NOT NULL,
-    doctor_id INT NOT NULL,
-    appointment_date DATETIME NOT NULL
+
+CREATE TABLE doctors (
+doctor_id INT AUTO_INCREMENT PRIMARY KEY,
+first_name VARCHAR(50) NOT NULL,
+last_name VARCHAR(50) NOT NULL,
+specialization VARCHAR(100),
+phone_number VARCHAR(15) UNIQUE,
+email VARCHAR(100)
 );
 
-INSERT INTO specializations (name, description)
+
+INSERT INTO patients (first_name, last_name, date_of_birth, gender, phone_number, email)
 VALUES
-('Cardiology', 'Diagnosis and treatment of heart diseases'),
-('Pediatrics', 'Medical care for infants and children'),
-('Orthopedics', 'Treatment of bones and joints');
+('Ramesh', 'Kumar', '1979-05-14', 'Male', '9876543210', 'ramesh@email.com'),
+('Sita', 'Sharma', '1990-08-21', 'Female', '9876543211', 'sita@email.com');
 
-INSERT INTO appointments (patient_id, doctor_id, appointment_date)
+INSERT INTO doctors (first_name, last_name, specialization, phone_number, email)
 VALUES
-(1, 1, '2026-08-05 10:00:00'),
-(2, 2, '2026-08-05 11:30:00'),
-(1, 2, '2026-08-06 09:00:00');
-
-SELECT * FROM specializations;
-SELECT * FROM appointments;
-
-ALTER TABLE doctors
-ADD experience_years INT;
-
-DESCRIBE doctors;
-
-ALTER TABLE doctors
-DROP COLUMN experience_years;
-
-DESCRIBE doctors;
+('Anjali', 'Rao', 'Cardiology', '9123456780', 'dr.rao@clinic.com'),
+('Vikram', 'Iyer', 'Pediatrics', '9123456781', 'dr.iyer@clinic.com');
 
 SELECT * FROM patients;
-
-UPDATE patients
-SET phone_number = '9999999999'
-WHERE patient_id = 1;
-
-SELECT * FROM patients;
-
-SELECT * FROM appointments;
-
-DELETE FROM appointments
-WHERE id = 3;
-
-SELECT * FROM appointments;
-
-CREATE USER 'clinic_app_user'@'localhost'
-IDENTIFIED BY 'Clinic@123';
-
-GRANT SELECT, INSERT, UPDATE, DELETE
-ON health_clinic_db.*
-TO 'clinic_app_user'@'localhost';
-
-FLUSH PRIVILEGES;
-
-SHOW GRANTS FOR 'clinic_app_user'@'localhost';
+SELECT * FROM doctors;
