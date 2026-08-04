@@ -20,6 +20,7 @@ This branch is dedicated to documenting my day-wise learning progress, practice 
 | :-- | :--- | :------------- | :--------------------- | :----: |
 | Day 1 | 31-Jul-2026 | DBMS Fundamentals & RDBMS Basics | Database creation, Table creation, SQL practice, SQL assignments | ✅ Completed |
 | Day 2 | 03-Aug-2026 | ER Diagram, Indexing & Normalization | Finalized ER Diagram & normalized patient/doctor/appointment schema | ✅ Completed |
+| Day 3 | 04-Aug-2026 | Joins, Stored Procedures & Triggers | Wrote joins, stored procedures, and triggers for Health Clinic schema | ✅ Completed |
 
 ---
 
@@ -90,6 +91,22 @@ This branch is dedicated to documenting my day-wise learning progress, practice 
 - Created indexes on essential search columns and composite indexes (`idx_doctor_date`).
 - Verified schema integrity using relational JOIN queries.
 
+## Day 3 – Joins, Stored Procedures & Triggers
+
+**Date:** 04-Aug-2026
+
+### Topics Covered
+
+- SQL Joins (INNER, LEFT, RIGHT, FULL OUTER)
+- Stored Procedures (Creation, execution, and usage parameters)
+- Triggers (Use cases for automated database actions)
+
+### Programs / Assignments Completed
+
+- Formulated relational queries using INNER, LEFT, RIGHT, and FULL OUTER JOINs across patient, doctor, appointment, billing, and visit tables.
+- Wrote Stored Procedures to encapsulate core transactional workflows for the Health Clinic Application.
+- Created Triggers for automated database actions (e.g., auto-updating visit history or status logs on appointment updates).
+
 ---
 
 # 📝 Date-wise Progress Updates
@@ -98,6 +115,7 @@ This branch is dedicated to documenting my day-wise learning progress, practice 
 |------|-----------------|
 | 31-Jul-2026 | Completed DBMS Fundamentals and RDBMS Basics. Created databases and tables, inserted sample data, practiced ALTER, UPDATE, and DELETE operations, and completed the Day 1 SQL assignment. |
 | 03-Aug-2026 | Covered ER Diagram design, Table Indexing, and Normalization forms (1NF to BCNF). Designed, normalized, and indexed the Health Clinic DB schema with integrity constraints and validation queries. |
+| 04-Aug-2026 | Covered SQL Joins, Stored Procedures, and Triggers. Implemented complex multi-table queries, stored procedures, and automated triggers for the Health Clinic database schema. |
 
 ---
 
@@ -113,13 +131,17 @@ Refresher-Training/
 |   └── assignment
 |
 ├── Day-2/
-    ├── FullyNormalizedHealthClinicSchema
+|   └── FullyNormalizedHealthClinicSchema
+|
+├── Day-3/
+|   └── JoinsStoredProceduresTriggers
+
 ```
 
 ---
 
 ## 🚀 Current Progress
 
-- **Training Day:** Day 2
+- **Training Day:** Day 3
 - **Status:** ✅ Completed
 
