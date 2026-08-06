@@ -21,6 +21,7 @@ This branch is dedicated to documenting my day-wise learning progress, practice 
 | Day 1 | 31-Jul-2026 | DBMS Fundamentals & RDBMS Basics | Database creation, Table creation, SQL practice, SQL assignments | ✅ Completed |
 | Day 2 | 03-Aug-2026 | ER Diagram, Indexing & Normalization | Finalized ER Diagram & normalized patient/doctor/appointment schema | ✅ Completed |
 | Day 3 | 04-Aug-2026 | Joins, Stored Procedures & Triggers | Wrote joins, stored procedures, and triggers for Health Clinic schema | ✅ Completed |
+| Day 4 | 05-Aug-2026 | JDBC & Health Clinic App Completion | Implemented JDBC CRUD operations & console-based Health Clinic App | ✅ Completed |
 
 ---
 
@@ -107,6 +108,25 @@ This branch is dedicated to documenting my day-wise learning progress, practice 
 - Wrote Stored Procedures to encapsulate core transactional workflows for the Health Clinic Application.
 - Created Triggers for automated database actions (e.g., auto-updating visit history or status logs on appointment updates).
 
+
+## Day 4 – JDBC & Health Clinic App Completion
+
+**Date:** 05-Aug-2026
+
+### Topics Covered
+
+- JDBC - Connecting a Java application to MySQL
+- CRUD operations via JDBC
+- Connection pooling basics
+
+### Programs / Assignments Completed
+
+- Developed core Health Clinic App modules to:
+  - Register patients and manage doctor/specialization details
+  - Schedule appointments and track visit histories
+  - Handle basic billing workflows persisted via MySQL using JDBC
+- Demonstrated the completed interactive, console-based Health Clinic Application.
+
 ---
 
 # 📝 Date-wise Progress Updates
@@ -116,7 +136,7 @@ This branch is dedicated to documenting my day-wise learning progress, practice 
 | 31-Jul-2026 | Completed DBMS Fundamentals and RDBMS Basics. Created databases and tables, inserted sample data, practiced ALTER, UPDATE, and DELETE operations, and completed the Day 1 SQL assignment. |
 | 03-Aug-2026 | Covered ER Diagram design, Table Indexing, and Normalization forms (1NF to BCNF). Designed, normalized, and indexed the Health Clinic DB schema with integrity constraints and validation queries. |
 | 04-Aug-2026 | Covered SQL Joins, Stored Procedures, and Triggers. Implemented complex multi-table queries, stored procedures, and automated triggers for the Health Clinic database schema. |
-
+| 05-Aug-2026 | Learned JDBC architecture and database integration in Java. Built a console-based Health Clinic Application implementing full CRUD persistence for patients, doctors, appointments, visits, and billing. |
 ---
 
 # 📂 Repository Structure
@@ -135,6 +155,10 @@ Refresher-Training/
 |
 ├── Day-3/
 |   └── JoinsStoredProceduresTriggers
+|
+├── Day-4/
+|   ├── HealthClinicApp
+|   └── README.md
 
 ```
 
@@ -142,6 +166,6 @@ Refresher-Training/
 
 ## 🚀 Current Progress
 
-- **Training Day:** Day 3
+- **Training Day:** Day 4
 - **Status:** ✅ Completed
 
