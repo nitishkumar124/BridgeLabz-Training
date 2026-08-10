@@ -22,6 +22,8 @@ This branch is dedicated to documenting my day-wise learning progress, practice 
 | Day 2 | 03-Aug-2026 | ER Diagram, Indexing & Normalization | Finalized ER Diagram & normalized patient/doctor/appointment schema | ✅ Completed |
 | Day 3 | 04-Aug-2026 | Joins, Stored Procedures & Triggers | Wrote joins, stored procedures, and triggers for Health Clinic schema | ✅ Completed |
 | Day 4 | 05-Aug-2026 | JDBC & Health Clinic App Completion | Implemented JDBC CRUD operations & console-based Health Clinic App | ✅ Completed |
+| Day 5 | 06-Aug-2026 | Tomcat, Servlets & Spring Introduction | Deployed Servlet on Tomcat & explored Spring IoC container with bean examples | ✅ Completed |
+| Day 6 | 07-Aug-2026 | Spring MVC | Built 'My Greetings App' using Spring MVC | ✅ Completed |
 
 ---
 
@@ -137,6 +139,9 @@ This branch is dedicated to documenting my day-wise learning progress, practice 
 | 03-Aug-2026 | Covered ER Diagram design, Table Indexing, and Normalization forms (1NF to BCNF). Designed, normalized, and indexed the Health Clinic DB schema with integrity constraints and validation queries. |
 | 04-Aug-2026 | Covered SQL Joins, Stored Procedures, and Triggers. Implemented complex multi-table queries, stored procedures, and automated triggers for the Health Clinic database schema. |
 | 05-Aug-2026 | Learned JDBC architecture and database integration in Java. Built a console-based Health Clinic Application implementing full CRUD persistence for patients, doctors, appointments, visits, and billing. |
+| 06-Aug-2026 | Explored Servlet lifecycle and deployed a Java Servlet on Apache Tomcat. Introduced to Spring Core concepts including Inversion of Control (IoC) and Dependency Injection (DI). |
+| 07-Aug-2026 | Learned Spring MVC architecture (`DispatcherServlet`, Controllers, Request Mappings). Developed and deployed 'My Greetings App' using Spring MVC. |
+
 ---
 
 # 📂 Repository Structure
@@ -159,6 +164,12 @@ Refresher-Training/
 ├── Day-4/
 |   ├── HealthClinicApp
 |   └── README.md
+|
+├── Day-5/
+│   └── FirstServlet
+│
+├── Day-6/
+│   └── MyGreetingsApp
 
 ```
 
@@ -166,6 +177,6 @@ Refresher-Training/
 
 ## 🚀 Current Progress
 
-- **Training Day:** Day 4
+- **Training Day:** Day 6
 - **Status:** ✅ Completed
 
